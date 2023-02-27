@@ -1,3 +1,22 @@
+# go to anaconda prompt and you must run before executing (this is only required once)
+# conda install -c conda-forge psycopg2
+# conda install -c conda-forge sqlalchemy
+# Before Running you must make a DB in pgadmin
+# Start a thread here with any questions
+# Put all of this code into one cell for ipynb or one .py file in jupyterlab.
+# TLDR this code will create tables for you and load data for you in postgresql 
+
+import pandas as pd
+import numpy as np
+import datetime as dt
+from sqlalchemy import create_engine
+
+
+def createdf(csv):
+    df = pd.read_csv(csv)
+    print(df.shape)
+    return df
+
 def createengine(eng, usr, pas, address, port, db):
     engine = create_engine(f'{eng}://{usr}:{pas}@{address}:{port}/{db}')
     return engine.connect()
@@ -25,10 +44,3 @@ def main():
 
 main()
 
-# go to anaconda prompt and you must run before executing (this is only required once)
-# conda install -c conda-forge psycopg2
-# conda install -c conda-forge sqlalchemy
-# Before Running you must make a DB in pgadmin
-# Start a thread here with any questions
-# Put all of this code into one cell for ipynb or one .py file in jupyterlab.
-# TLDR this code will automagically create tables for you and load data for you in postgresql 
