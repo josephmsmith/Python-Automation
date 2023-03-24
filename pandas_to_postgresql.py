@@ -2,7 +2,6 @@
 # conda install -c conda-forge psycopg2
 # conda install -c conda-forge sqlalchemy
 # Before Running you must make a DB in pgadmin
-# Start a thread here with any questions
 # Put all of this code into one cell for ipynb or one .py file in jupyterlab.
 # TLDR this code will create tables for you and load data for you in postgresql 
 
