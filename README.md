@@ -11,3 +11,6 @@ This script is designed for multiple CSVs without headers and assigns them a num
 ## [pd_df_to_pgadmin](https://github.com/josephmsmith/Python-Misc/blob/main/pd_df_to_pgadmin.py)
 This script is used to take in an existing dataframe created in pandas and export it to a new table in an existing database located in pgAdmin. 
 This will fail if there are any existing tables with the same name
+
+## [pdf_to_audio](https://github.com/josephmsmith/Python-Automation/blob/main/pdf_to_audio.py)
+Need to pick up some new information quickly? Maybe just don't feel like reading a pdf? This Python script reads a PDF file, converts the text from the PDF file into speech using text-to-speech (TTS), and saves the resulting audio file.
