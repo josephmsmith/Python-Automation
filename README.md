@@ -1,4 +1,4 @@
-# Python Projects and Helpful Scripts
+# Python Automation Projects
 
 ## [Mapping Sea Surface Temps(project)](https://github.com/josephmsmith/Python-Misc/blob/main/Plotting_SST_Data.ipynb)
 Mapping Sea Surface Temperatures using data retrieved on NASA website. 
