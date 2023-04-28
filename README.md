@@ -16,4 +16,4 @@ This will fail if there are any existing tables with the same name
 Need to pick up some new information quickly? Maybe just don't feel like reading a pdf? This Python script reads a PDF file, converts the text from the PDF file into speech using text-to-speech (TTS), and saves the resulting audio file.
 
 ## [Combine PDFs](https://github.com/josephmsmith/Python-Automation/blob/main/combine_pdfs.py)
-Have a few PDFs you want to combine? Use this script to quickly combine them together. Your reader thanks you in advance. 
+Have a few PDFs you want to combine? Use this script to quickly combine them together. Your reader thanks you in advance... 
