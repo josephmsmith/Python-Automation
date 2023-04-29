@@ -2,11 +2,11 @@
 
 ## PDF Manipulation
 
-### [pdf_to_audio](https://github.com/josephmsmith/Python-Automation/blob/main/pdf_to_audio.py)
+### [pdf_to_audio](https://github.com/josephmsmith/Python-Data-Analysis/blob/main/PDF%20Manipulation/pdf_to_audio.py)
 Need to pick up some new information quickly? Maybe just don't feel like reading a pdf? This Python script reads a PDF file, converts the text from the PDF file into speech using text-to-speech (TTS), and saves the resulting audio file.
-### [combine_pdfs](https://github.com/josephmsmith/Python-Automation/blob/main/combine_pdfs.py)
+### [combine_pdfs](https://github.com/josephmsmith/Python-Data-Analysis/blob/main/PDF%20Manipulation/combine_pdfs.py)
 Have a few PDFs you want to combine? Use this script to quickly combine them together. Your reader thanks you in advance... 
-### [compress_pdf](https://github.com/josephmsmith/Python-Automation/blob/main/compress_pdf.py)
+### [compress_pdf](https://github.com/josephmsmith/Python-Data-Analysis/blob/main/PDF%20Manipulation/compress_pdf.py)
 Lossless Compression. PyPDF2 supports the FlateDecode filter which uses the zlib/deflate compression method. It is a lossless compression, meaning the resulting PDF looks exactly the same. Have fun and save space 🫡
 
 ## [Mapping Sea Surface Temps(project)](https://github.com/josephmsmith/Python-Misc/blob/main/Plotting_SST_Data.ipynb)
