@@ -17,3 +17,6 @@ Need to pick up some new information quickly? Maybe just don't feel like reading
 
 ## [combine_pdfs](https://github.com/josephmsmith/Python-Automation/blob/main/combine_pdfs.py)
 Have a few PDFs you want to combine? Use this script to quickly combine them together. Your reader thanks you in advance... 
+
+## [compress_pdf](https://github.com/josephmsmith/Python-Automation/blob/main/compress_pdf.py)
+Lossless Compression. PyPDF2 supports the FlateDecode filter which uses the zlib/deflate compression method. It is a lossless compression, meaning the resulting PDF looks exactly the same. Have fun and save space 🫡
